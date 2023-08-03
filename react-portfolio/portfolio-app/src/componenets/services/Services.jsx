@@ -1,0 +1,120 @@
+import React from "react";
+import "./services.css";
+import { BiCheck } from "react-icons/bi";
+
+function Services() {
+  return (
+    <section id="services">
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
+
+      <div className="container serices__container">
+        <article className="service">
+          <div className="service__head">
+            <h3>UI/UX Design</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/*EnD of Ui*/}
+        <article className="service">
+          <div className="service__head">
+            <h3>Web Development</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/*EnD of Web Development*/}
+        <article className="service">
+          <div className="service__head">
+            <h3>Content Creation</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/*EnD of Content creation*/}
+      </div>
+    </section>
+  );
+}
+
+export default Services;
