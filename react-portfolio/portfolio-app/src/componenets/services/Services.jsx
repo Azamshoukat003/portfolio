@@ -83,13 +83,6 @@ function Services() {
                 Integrate APIs to enhance the functionality of web applications.
               </p>
             </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>
-                Incorporate security measures to protect against common web
-                threats.
-              </p>
-            </li>
           </ul>
         </article>
         {/*EnD of Web Development*/}
