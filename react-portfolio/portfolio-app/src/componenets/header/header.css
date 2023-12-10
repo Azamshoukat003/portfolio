@@ -1,5 +1,5 @@
 header {
-  height: 117vh;
+  /* height: 117vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -34,19 +34,6 @@ header {
 }
 
 /*===================Me ================*/
-.me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 4rem;
-  /* zoom: 110%; */
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
 
 /*=========SCROLL DOWN======*/
 .scroll_down {
@@ -61,13 +48,13 @@ header {
 /*========================MEDIA QUERIES (MEDIUM DEVICES)================*/
 @media screen and (max-width: 1024px) {
   header {
-    height: 750px;
+    height: auto;
   }
 }
 /*========================MEDIA QUERIES (SMALL DEVICES)================*/
 @media screen and (max-width: 600px) {
   header {
-    height: 750px;
+    height: auto;
   }
 
   .header_socials,

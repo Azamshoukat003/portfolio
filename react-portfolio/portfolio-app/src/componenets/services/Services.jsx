@@ -17,27 +17,31 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Focus on creating a positive overall user experience.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Design visually appealing and functional websites.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Implement responsive web design for optimal viewing on different
+                devices.
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Create user interfaces specifically tailored for mobile
+                applications.
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Ensure responsive design for various screen sizes and devices.
+              </p>
             </li>
           </ul>
         </article>
@@ -50,67 +54,46 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Offer end-to-end development services covering both front-end
+                and back-end aspects.
+              </p>
+            </li>
+
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Create dynamic and feature-rich web applications.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Use React frameworks for building interactive user interfaces.
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Design and develop APIs for seamless integration with
+                third-party services.
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Integrate APIs to enhance the functionality of web applications.
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>
+                Incorporate security measures to protect against common web
+                threats.
+              </p>
             </li>
           </ul>
         </article>
         {/*EnD of Web Development*/}
-        <article className="service">
-          <div className="service__head">
-            <h3>Content Creation</h3>
-          </div>
 
-          <ul className="service__list">
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-          </ul>
-        </article>
         {/*EnD of Content creation*/}
       </div>
     </section>

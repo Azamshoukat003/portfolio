@@ -22,13 +22,9 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>No client yet</small>
-            </article>
+
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
@@ -36,12 +32,12 @@ function About() {
             </article>
           </div>
           <p>
-            Hi there! My name is Muhammad Azam. I am frontend web
-            developer.Being a student, I am constantly expanding my knowledge
-            and skills in the ever-evolving world of web development. I love
-            learning and creating, and I'm passionate about bridging the gap
-            between design and functionality to ensure seamless user
-            interactions and captivating online experiences.
+            Hi there! My name is Muhammad Azam. I am web developer. I am
+            constantly expanding my knowledge and skills in the ever-evolving
+            world of web development. I love learning and creating, and I'm
+            passionate about bridging the gap between design and functionality
+            to ensure seamless user interactions and captivating online
+            experiences.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

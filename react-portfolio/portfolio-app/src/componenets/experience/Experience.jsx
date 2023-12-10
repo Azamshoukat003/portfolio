@@ -99,7 +99,7 @@ const Experience = () => {
               <BsPatchCheckFill className="icons" />
               <div>
                 <h4>Django</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

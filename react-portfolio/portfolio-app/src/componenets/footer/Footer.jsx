@@ -2,8 +2,6 @@ import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-
 const Footer = () => {
   return (
     <footer>
@@ -25,26 +23,20 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
 
-        {/* <li>
-          <a href="services">Services</a>
+        <li>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="portfolio">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
-          <a href="testimonials">Testimonials</a>
-        </li> */}
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com" target="_blank">
+        <a href="https://www.facebook.com/azam.shoukat.33/" target="_blank">
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://www.instagram.com/azam_shoukat007/" target="_blank">
           <BsInstagram />
-        </a>
-        <a href="https://twitter.com" target="_blank">
-          <BsTwitter />
         </a>
       </div>
 
